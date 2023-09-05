@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
             stoppingOffset = 100;
             positioningOffset = 55;
         } else { // Desktop
-            stoppingOffset = 50;
-            positioningOffset = 20;
+            stoppingOffset = 100;
+            positioningOffset = 60;
         }
     }
 
