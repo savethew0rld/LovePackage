@@ -1,0 +1,43 @@
+@keyframes heartbeat {
+    0%, 20%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    10%, 30% {
+        opacity: 0.33;
+        transform: scale(1.1);
+    }
+
+    40%, 60%, 80% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes heartbeat {
+    0%, 20%, 100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    10%, 30% {
+        opacity: 0.33;
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    40%, 60%, 80% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.heartbeat {
+    animation: heartbeat 4s ease-in-out infinite;
+    -webkit-animation: heartbeat 4s ease-in-out infinite;
+    transform-origin: 480px -399px;
+    animation-delay: 1s;
+}
